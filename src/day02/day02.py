@@ -34,7 +34,7 @@ def run_wrapper(total_list, commands_list, goal):
 
 
 def main():
-    file_path = 'D:\\Repositories\\sandbox-py\\advent2019\\day02\\input.txt'
+    file_path = 'D:\\Repositories\\advent-of-code2019\\src\\day02\\original_input.txt'
     with open(file_path, 'r') as input_file:
         lines = input_file.read()
 

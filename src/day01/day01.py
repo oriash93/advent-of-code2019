@@ -15,7 +15,7 @@ def calc_fuel2(mass):
 
 
 def main():
-    file_path = 'D:\\Repositories\\sandbox-py\\advent2019\\day01\\input.txt'
+    file_path = 'D:\\Repositories\\advent-of-code2019\\src\\day01\\original_input.txt'
     with open(file_path, 'r') as input_file:
         lines = input_file.readlines()
     modules = [int(line.strip()) for line in lines]

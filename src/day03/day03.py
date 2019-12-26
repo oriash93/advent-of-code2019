@@ -35,8 +35,7 @@ def distance_from_origin(x, y):
 
 
 def main():
-
-    file_path = 'D:\\Repositories\\sandbox-py\\advent2019\\day03\\input3.txt'
+    file_path = 'D:\\Repositories\\advent-of-code2019\\src\\day03\\original_input.txt'
     with open(file_path, 'r') as input_file:
         line1, line2 = input_file.readlines()
 
